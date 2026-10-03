@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "product": "许可证变更影响",
+  "source_context": "当前 GitHub 账号内通过正式容器验证的 Python 后端项目群",
+  "actors": [
+    "机构合规员",
+    "执业人员",
+    "监管人员",
+    "复核专家"
+  ],
+  "states": [
+    "登记",
+    "待核验",
+    "处置中",
+    "已决定",
+    "已归档"
+  ],
+  "invariants": [
+    "许可证版本链",
+    "业务引用影响图",
+    "限制原子传播",
+    "历史未来边界"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "0910033-012-A",
+      "actor": "机构合规员",
+      "state": "登记"
+    },
+    {
+      "case_id": "0910033-012-B",
+      "actor": "复核专家",
+      "state": "待核验"
+    }
+  ],
+  "tags": [
+    "license-change",
+    "impact-propagation"
+  ]
+}
